@@ -4,7 +4,7 @@ target=$1
 folder_temporary=$(mktemp -d)
 
 if [[ -z "$target" ]]; then
-echo "Enter the filename. For example, $0 main.cpp"
+echo "Enter the filename. For example, $0 program1.cpp"
 exit 1
 fi
 
